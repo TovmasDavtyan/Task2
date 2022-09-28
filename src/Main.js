@@ -41,8 +41,8 @@ function Main() {
                     <GoogleLogout  clientId={clientId} buttonText="Log out" onLogoutSuccess={logOut} />
                     <BrowserRouter>
                         <Routes>
-                        <Route path='/task2/:id' element={<Posts />}/>
-                        <Route path='/task2' element={<PostTitles />}/>        
+                        <Route path='/:id' element={<Posts />}/>
+                        <Route path='/' element={<PostTitles />}/>        
                         </Routes>
                     </BrowserRouter>
                 </div>
