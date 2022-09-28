@@ -1,0 +1,18 @@
+.post {
+    margin-left: 20px;
+}
+
+.comments{
+    margin-left: 20px;
+}
+
+a:link, a:visited {
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    color:black;
+  }
+
+.titles{
+    margin-top: 20px;
+}
