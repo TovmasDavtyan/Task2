@@ -17,7 +17,7 @@ function PostTitles(){
     if(data !== undefined){
         return <div className="titles">{data.posts.map(function(obj){
             return (
-                <Link to={`/${obj.id}`}  key={obj.id}>
+                <Link to={`/task2/${obj.id}`}  key={obj.id}>
                     {obj.title}
                 </Link>
             )
